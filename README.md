@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Image Convertor
 
-First, run the development server:
+**Image Convertor** is a streamlined, user-friendly website that allows you to easily convert images from one file format to another. Designed with **Next.js** and styled using **Tailwind CSS**, Image Convertor provides a fast and modern experience, supporting multiple file type conversions for all your image needs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Simple File Type Conversion**: Quickly convert images between formats like **PNG to JPG, JPG to GIF,** and more.
+- **Responsive Design**: Built to look and perform great on all devices.
+- **Secure and Private**: All uploaded images are handled securely and are not stored after conversion.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: Framework for server-rendered React applications.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Node.js**: Backend to handle image processing and file conversions.
+- **Sharp**: High-performance image processing library for format conversion.
 
-## Learn More
+## Installation and Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/image-convertor.git
+   cd image-convertor
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. **Access**: Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Upload the image you wish to convert.
+2. Select the desired output format (e.g., PNG, JPG, GIF).
+3. Click **Convert** and download the converted file.
+
+## License
+
+This project is licensed under the MIT License.
